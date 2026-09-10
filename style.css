@@ -1,11 +1,9 @@
-
 body {
 margin: 0;
 padding: 0;
 overflow-x: hidden;
 background-color: aliceblue;
 }
-
 #header{
     background-color: #4798e9;
     border-radius: 25px;
