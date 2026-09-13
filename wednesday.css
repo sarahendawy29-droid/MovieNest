@@ -1,0 +1,71 @@
+
+body{
+  background-color: rgb(4, 4, 4);
+  color: aliceblue;
+  margin: 10px;
+  padding: 0;
+ 
+}
+.series-details{
+  display: flex;
+  gap: 25px;
+  justify-content: stretch;
+  margin: 50px;
+  
+ 
+}
+.details-image{
+  border: brown 1px solid;
+}
+.details-image img{
+  width: 100%;
+  height: 400px;
+}
+.btn-watchlist{
+  cursor: pointer;
+  background-color: rgb(115, 27, 43);
+  margin-top: 20px;
+  padding: 13px 35px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-watchlist:hover {
+    background: #a95668;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(169, 86, 104, 0.3);
+}
+
+.season {
+  margin: 20px;
+}
+.season h1{
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+details{
+  border: #444444 solid;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #424040;
+
+
+}
+summary{
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  color: #f8f8f8;
+}
+
+
+
+
+   
