@@ -1,0 +1,212 @@
+body{
+    background-color: rgb(177, 186, 199);
+    padding: 0;
+    margin:0 ;
+}
+#text{
+    display: flex;
+    justify-content: left;
+    padding-left:  30px;
+    padding-top: 30px;
+color: whitesmoke;
+}
+#pp {
+color: #555;
+display: flex;
+position: absolute;
+top:85px;
+font-size: large;
+}
+#watch {
+padding: 30px;
+}
+.card{
+        padding-left: 25px;
+    display: flex;
+
+}
+ img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 110px;
+}
+.butt{
+    border-color: red;
+    display: flex;
+    position: relative;
+    left: 700px ;
+    top: 50px;
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(220, 15, 15);
+}
+.butt1{
+    border-color: red;
+    display: flex;
+    position: relative;
+    left: 650px ;
+    top: 50px;
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(220, 15, 15);
+}
+.butt2{
+    border-color: red;
+    display: flex;
+    position: relative;
+    left: 680px ;
+    top: 50px;
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(220, 15, 15);
+}
+.butt3{
+    border-color: red;
+    display: flex;
+    position: relative;
+    left: 700px ;
+    top: 50px;
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(220, 15, 15);
+}
+.butt4{
+    border-color: red;
+    display: flex;
+    position: relative;
+    left: 730px ;
+    top: 50px;
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(220, 15, 15);
+}
+.butt5{
+    border-color: red;
+    display: flex;
+    position: relative;
+    left: 760px ;
+    top: 50px;
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(220, 15, 15);
+}
+.h{
+    position: relative;
+    left: 140px;
+    color: whitesmoke;
+}
+.hh{
+    position: relative;
+       right: 45px;
+       top: 60px;
+       font-size: 20px;
+           color: white;
+
+}
+.h11{
+    position: relative;
+    left: 140px;
+    color: whitesmoke;
+}
+.h22{
+    position: relative;
+       right: 115px;
+       top: 60px;
+       font-size: 20px;
+           color: white;
+
+}
+.rating1{
+      position: relative;
+       right: 100px;
+top: 65px;
+    color: whitesmoke;
+
+}
+.h12{
+    position: relative;
+    left: 140px;
+    color: whitesmoke;
+}
+.h21{
+    position: relative;
+       right: 75px;
+       top: 60px;
+       font-size: 20px;
+           color: white;
+
+}
+.rating2{
+      position: relative;
+       right: 60px;
+top: 65px;
+    color: whitesmoke;
+
+}
+.h112{
+    position: relative;
+    left: 140px;
+    color: whitesmoke;
+}
+.h221{
+    position: relative;
+       right: 15px;
+       top: 60px;
+       font-size: 20px;
+           color: white;
+
+}
+.rating3{
+      position: relative;
+       right: 0px;
+top: 65px;
+    color: whitesmoke;
+
+}
+.rating{
+      position: relative;
+       right: 29px;
+top: 65px;
+    color: whitesmoke;
+}
+.line{
+text-align: center;
+color: #555;
+}

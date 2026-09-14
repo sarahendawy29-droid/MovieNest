@@ -46,7 +46,7 @@ header h1{
     left: 120px;
 }
 body{
-    background-color: #f0f6fc;
+    background-color: #000000;
 }
 .faq{
     width: 80%;
@@ -58,12 +58,14 @@ body{
      text-align: center;
     font-size: 40px;
     margin-bottom: 15px;
+    color: #f8f8f8;
 }
 
 .para {
    text-align: center;
     margin-bottom: 40px;
     font-size: 18px;
+    color: #f8f8f8;
 }
 
 .faq details {
@@ -71,7 +73,7 @@ body{
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 18px 20px;
-    background-color: #fff;
+    background-color: #000000;
    
 }
 
@@ -79,10 +81,11 @@ body{
     cursor: pointer;
     font-size: 19px;
     font-weight: bold;
+    color: #f8f8f8;
 }
 
 .faq details p {
     margin-top: 15px;
     line-height: 1.4;
-    color: #555;
+    color: #d3cdcd;
 }
