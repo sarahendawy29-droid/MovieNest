@@ -129,7 +129,7 @@ color: #e74545;
 }
 .search-bar input{
     position: relative;
-left: 900px;
+left: 700px;
 top: 5px;
 background-color: #132238;
 border: 1px solid #FFFFFF;
@@ -284,8 +284,8 @@ border: 1px solid #232631;
 background-color: #e50914;
 border-color: #e50914;
 }
+
 #main-footer {
-main-footer {
   background-color: #0d0f12;
   padding: 30px 60px;
   border-top: 1px solid #1a1d24;
