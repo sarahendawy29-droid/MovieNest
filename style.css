@@ -52,7 +52,7 @@ header h1{
 }
 footer #links{
     display: flex;
-    gap: 15px;
+    gap: 1f5px;
 bottom: 10px;}
 footer #navbar{
     position: relative;
