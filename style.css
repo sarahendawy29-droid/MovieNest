@@ -1,7 +1,6 @@
 
 body{
-    background-color: #524646;
-    color: rgb(9, 0, 0);
+    background-color: #0B192C;
     font-family: sans-serif;
     padding: 0;
     margin: 0;
@@ -9,15 +8,22 @@ body{
 }
 h1{
     padding-left:15px;
-    color: #ffb400;
+    color: #FFFFFF;
 }
 h1:hover{
-    color: white;
+    color: #FF6675;
 }
+/*header and footer*/
 #h11{color: white;}
 nav{
     display: flex;
     gap: 16px;
+}
+#pfoot{
+color: #B8C4D0;
+position: absolute;
+left: 100px;
+
 }
 #header{
 display: flex;
@@ -26,16 +32,17 @@ margin: 0 10px;
 padding: 10px;
 padding-top: 0;
 padding-bottom: 0;
-background-color: #524646;
+background-color: #0B192C;
 }
 #foot{
     display: flex;
+    height: 110px;
 align-items: center;
 margin: 0 10px;
 padding: 10px;
 padding-top: 0;
 padding-bottom: 0;
-background-color: #524646;
+background-color: #0B192C;
 }
 footer h1{
     position: absolute;
@@ -52,11 +59,24 @@ header h1{
 }
 footer #links{
     display: flex;
-    gap: 1f5px;
+    gap: 15px;
 bottom: 10px;}
 footer #navbar{
     position: relative;
     top: 15px;
+}
+nav {
+font-size: 21px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: #B8C4D0;
+    gap: 10px;
+}
+a:hover{
+    color: #FF6675;
+    transition:  0.5s;
 }
 .container{
 align-items: center;
@@ -67,19 +87,6 @@ left: 480px;
     position: relative;
 left: 90px;
 color: #e74545;
-}
-nav {
-font-size: 21px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-}
-a{
-    text-decoration: none;
-    color: #A8A492;
-    gap: 10px;
-}
-a:hover{
-    color: #ffb400;
-    transition:  0.5s;
 }
 .movie-poster{
     width: 100%;
@@ -92,16 +99,18 @@ a:hover{
     position: relative;
 left: 900px;
 top: 5px;
-background-color: #A8A492;
-border: 1px solid #444;
-color: white;
+background-color: #132238;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
 padding: 8px 15px;
 border-radius: 20px;
 outline: none;
 }
+/* end*/
+
 .movies-section{
     padding: 30px 50px;
-    background-color: #FFEBCC;
+    background-color: #0B192C;
 }
 .movies-grid{
 display: grid;
@@ -110,7 +119,7 @@ gap: 25px;
 align-items: stretch;
 }
 .movie-card{
-    background-color: #BFDDF0;
+    background-color: #1A2A3A;
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #232631;
@@ -150,7 +159,7 @@ margin-bottom: 10px;
 .details-btn{
     width: 100%;
     background-color: transparent;
-    color: #e50914;
+    color: #FF4B5C;
     border: 1px solid #e50914;
     padding: 8px 0;
     border-radius: 4px;

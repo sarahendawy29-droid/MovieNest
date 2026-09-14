@@ -1,52 +1,105 @@
-#header{
-    background-color: #4798e9;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
+#h11{color: white;}
+nav{
+    display: flex;
+    gap: 16px;
 }
-#navbar{
-  display: flex;
-  text-align: center;  
-  justify-content: center;
-  position: absolute;
-  top: 20px;
-  right: 5px;
-  left: 5px;
+#pfoot{
+color: #B8C4D0;
+position: absolute;
+left: 100px;
+
+}
+#header{
+display: flex;
+align-items: center;
+margin: 0 10px;
+padding: 10px;
+padding-top: 0;
+padding-bottom: 0;
+background-color: #0B192C;
+}
+#foot{
+    display: flex;
+    height: 110px;
+align-items: center;
+margin: 0 10px;
+padding: 10px;
+padding-top: 0;
+padding-bottom: 0;
+background-color: #0B192C;
+}
+footer h1{
+    position: absolute;
+
+}
+header h1{
+    position: absolute;
+}
+#links{
+    position: relative;
+    left: 1000px;
+    bottom: 20px;
+    font-size: 24px ;
+}
+footer #links{
+    display: flex;
+    gap: 15px;
+bottom: 10px;}
+footer #navbar{
+    position: relative;
+    top: 15px;
+}
+nav {
+font-size: 21px;
+font-family:Georgia, 'Times New Roman', Times, serif;
 }
 a{
     text-decoration: none;
-    color: rgb(187, 82, 82);
-    font-size: 25px;
-    padding: 5px;
-
+    color: #B8C4D0;
+    gap: 10px;
 }
 a:hover{
-    color: rgb(185, 133, 133);
+    color: #FF6675;
+    transition:  0.5s;
 }
-#search-form{
-    display: flex;
-    justify-content:center;
-    position: absolute;
-    top: 50px;
-    right: 25px;
-    height: 30px;
-    width: 200px;
-    color: rgb(187, 82, 82);
+.container{
+align-items: center;
+position: relative;
+left: 480px;
 }
-#logo{
-    border-radius: 35px;
-    width: 80px;
-    height:80px;
+#titlee{
+    position: relative;
+left: 90px;
+color: #e74545;
 }
-header h1{
-    color: rgb(248, 26, 26);
-    font-size: 30px;
-    position: absolute;
-    top: 20px;
-    left: 120px;
+.movie-poster{
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+    background-color: #0d0e12;
+}
+.search-bar input{
+    position: relative;
+left: 900px;
+top: 5px;
+background-color: #132238;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+padding: 8px 15px;
+border-radius: 20px;
+outline: none;
+}
+p:hover{
+    color: #FF6675;
+
+}
+.question h2:hover{
+        color: #FF6675;
+
 }
 body{
-    background-color: #000000;
+    background-color: #0B192C;
 }
 .faq{
     width: 80%;
@@ -73,7 +126,7 @@ body{
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 18px 20px;
-    background-color: #000000;
+    background-color: #132238;
    
 }
 
