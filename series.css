@@ -223,8 +223,9 @@ align-items: stretch;
     flex-direction: column;
     height: 100%;
 }
-.movie-card :hover{
-    transform: translateY(-5px);
+.movie-card:hover{
+    transform: scale(1.15);
+     transition: transform 0.3s ease;
 }
 .movie-info{
 padding: 12px;

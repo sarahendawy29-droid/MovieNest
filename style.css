@@ -5,6 +5,7 @@ body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+
 }
 h1{
     padding-left:15px;
@@ -127,8 +128,30 @@ align-items: stretch;
     flex-direction: column;
     height: 100%;
 }
-.movie-card :hover{
-    transform: translateY(-5px);
+.hero-section{
+    background-image: linear-gradient(to right, rgba(15, 15, 15, 0.95), rgba(15, 15, 15, 0.3)), url('img/d778f0a374656ddfdf3ec5475a39ea71banner.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 450px;
+   display: flex;
+   align-items: center;
+   padding-left: 50px;
+   margin-bottom: 30px ;
+}
+.hero-content h1{
+font-size: 36px;
+margin-bottom: 10px;
+color: #ffffff;
+}
+.hero-content p{
+font-size: 16px;
+color: #b3b3b3;
+max-width: 500px;
+}
+.movie-card:hover{
+    transform: scale(1.15);
+     transition: transform 0.3s ease;
 }
 .movie-info{
 padding: 12px;
@@ -156,23 +179,6 @@ font-weight: bold;
 font-size: 13px;
 margin-bottom: 10px;
 }
-.details-btn{
-    width: 100%;
-    background-color: transparent;
-    color: #FF4B5C;
-    border: 1px solid #e50914;
-    padding: 8px 0;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 12px;
-    text-align: center;
-    transition: all 0.3 ease;
-    margin-top: auto;
-}
-.details-btn :hover{
-    background-color: #e50914;
-    color: #ffffff;
-}
 #banner{
    height: 550px;
    width: 100%;
@@ -187,4 +193,48 @@ margin-bottom: 10px;
     object-fit: cover;
     object-position: center;
     display: block;
+}
+.actions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.details-btn{
+    background-color: transparent;
+    color: #e50914;
+    border: 1px solid #e50914;
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    transition: all 0.3 ease;
+    margin-top: auto;
+    width: 100%;
+}
+.details-btn :hover{
+    background-color: #e50914;
+    color: #ffffff;
+}
+.btn-icons {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: -95px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.btn-icons:hover {
+    background: rgba(245, 2, 2, 0.4);
 }
