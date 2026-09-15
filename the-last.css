@@ -108,12 +108,17 @@ outline: none;
   
  
 }
+.details-image:hover{
+    transform: scale(1.05);
+     transition: transform 0.3s ease;
+}
+
 .details-image{
   border: brown 1px solid;
 }
 .details-image img{
   width: 100%;
-  height: 400px;
+  height: 490px;
 }
 .btn-watchlist{
   cursor: pointer;

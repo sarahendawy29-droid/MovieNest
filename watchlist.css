@@ -224,6 +224,9 @@ top: 65px;
 text-align: center;
 color: #FFFFFF;
 }
+.line:hover{
+  color:#FF6675 ;  
+}
 #h11{color: white;}
 nav{
     display: flex;
