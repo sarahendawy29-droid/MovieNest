@@ -1,0 +1,197 @@
+html{
+    height: 100%;
+    background-color: #1a2332;
+}
+header{
+    background-color:#1a2332 ;
+    
+}
+
+
+body {
+    background-color: #1a222d !important;
+    color: #ffffff !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh !important;
+    display: flex;
+    flex-direction: column !important;
+    
+}
+
+
+.movie-details-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 40px;
+
+}
+
+
+
+.movie-card {
+     display: flex;
+    flex-direction: row !important;
+    gap: 40px !important;
+    align-items: flex-start !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+
+.movie-poster {
+    flex-shrink: 0 !important;
+    width: 280px !important;
+    border: 3px solid #ff4d30;
+    border-radius: 8px;
+
+}
+
+.movie-poster img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+
+.movie-info {
+    flex: 1 !important;
+    color: #ffffff;
+    text-align: left !important;
+}
+
+.movie-info h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #ffffff !important;
+}
+
+.movie-info .meta {
+    color: #cbd5e1 !important;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.movie-info .rating {
+    color: #f5c518 !important;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.movie-info h3 {
+    font-size: 20px;
+    margin: 20px 0 8px 0;
+    color: #ffffff !important;
+}
+
+.movie-info .description {
+    color: #cbd5e1 !important;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.actions .btn {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #ff4d30 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.actions .btn:hover {
+    background-color: #e03e22 !important;
+}
+/* تنسيق الفوتر المطابق تماماً للصورة */
+footer#foot {
+    background-color: #12181f; /* خلفية الفوتر الداكنة */
+    padding: 30px 40px 15px 40px;
+    margin-top: 50px;
+    border-top: 1px solid #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* تنسيق اللوجو */
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-logo .logo-white {
+    color: #ffffff;
+}
+
+.footer-logo .logo-red {
+    color: #ff4d30; /* اللون الأحمرا البرتقالي الخاص باللوجو */
+}
+
+/* تنسيق روابط القائمة */
+.footer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #ffffff;
+}
+
+/* تنسيق أيقونات السوشيال ميديا */
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    color: #cbd5e1;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ff4d30;
+}
+
+/* سطر الحقوق السفلي */
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    color: #64748b;
+    font-size: 13px;
+}
+footer.custom-details-footer {
+    margin-top: 100px !important; 
+    margin-bottom: 0 !important;
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: #12181f !important;
+    box-sizing: border-box !important;
+}
