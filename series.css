@@ -36,6 +36,7 @@ left: 100px;
     margin-top: auto;
     width: 100%;
 }
+
 .details-btn:hover{
     background-color: #e50914;
     color: #ffffff;
@@ -237,6 +238,7 @@ flex-direction: column;
 flex-grow: 1;
 
 }
+
 .movie-info h3{
 color: #ffffff;
 font-size: 15px;
